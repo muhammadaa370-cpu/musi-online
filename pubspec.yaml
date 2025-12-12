@@ -1,0 +1,66 @@
+name: app_berita
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Dependensi aplikasi berita
+  webview_flutter: ^4.7.0
+  cached_network_image: ^3.3.0
+  google_fonts: ^6.1.0
+  http: ^1.1.0
+
+  url_launcher: ^6.2.4
+
+  # Firebase Dependencies
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.17.4
+  cloud_firestore: ^4.17.3
+  firebase_storage: ^11.6.5
+
+  # Upload foto & PDF
+  image_picker: ^1.0.7
+  file_picker: ^8.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_native_splash: ^2.4.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/galeri/
+    - assets/images/berita/
+
+# ============================
+# SPLASH SCREEN
+# ============================
+flutter_native_splash:
+  color: "#0F9D58"
+  image: assets/images/logo.png
+
+  android_12:
+    color: "#0F9D58"
+    image: assets/images/logo.png
+
+# ============================
+# APP ICON CONFIG
+# ============================
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"

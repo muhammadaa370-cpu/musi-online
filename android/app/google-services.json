@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "956100831408",
+    "project_id": "karya-ppmp-2025-palembang",
+    "storage_bucket": "karya-ppmp-2025-palembang.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956100831408:android:fe02c71db294094b0ab375",
+        "android_client_info": {
+          "package_name": "com.example.APP_BERITA"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZMUZ8zV3ioQcedUu_NaLwG2Ss1NnDzF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
